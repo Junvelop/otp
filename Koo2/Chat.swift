@@ -63,7 +63,7 @@ struct ChatView: View {
     }
     
     private func sendToOpenAI(messages: [ChatMessage], completion: @escaping (String) -> Void) {
-        let apiKey = "sk-proj-augQdR0a6LGntSXk5DxmT3BlbkFJMFP5pCJCW9udPh2H6ZLr"
+        let apiKey = "Insert your key"
         
         let modelId = "gpt-3.5-turbo"
         
